@@ -14,6 +14,8 @@
     $paragraMod = str_replace($parola, '***', $paragrafo);
 
     echo $paragraMod;
+
+    echo "<br><br>Questo paragrafo e' lungo ".strlen($paragraMod)." caratteri."
      ?>
   </body>
 </html>
